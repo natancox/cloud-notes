@@ -9,11 +9,11 @@ Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watc
 1. Service registration
 - can do DNS
 - health checks 
- - enable activator boot to view info
+  - enable activator boot to view info
 - can register "anything", not only services (like DB nodes...)
 - ribbon integration
- - is a client-side load balancer
- - health check on ribbon (not supported by Eureka!)
+  - is a client-side load balancer
+  - health check on ribbon (not supported by Eureka!)
 
 2. K/V store
 - for configuration
