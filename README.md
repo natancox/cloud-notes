@@ -4,24 +4,14 @@
 
 Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watch it at speed 1.5.
 
-  1. Make my changes
-    1. Fix bug
-    2. Improve formatting
-      * Make the headings bigger
-  2. Push my commits to GitHub
-  3. Open a pull request
-    * Describe my changes
-    * Mention all the members of my team
-      * Ask for feedback
-
 ### Multiple functions
 
 1. Service registration
-  1. can do DNS
-  2. health checks 
+  * can do DNS
+  * health checks 
     * enable activator boot to view info
-  3. can register "anything", not only services (like DB nodes...)
-  4. ribbon integration
+  * can register "anything", not only services (like DB nodes...)
+  * ribbon integration
     * is a client-side load balancer
     * health check on ribbon (not supported by Eureka!)
 2. K/V store
@@ -49,9 +39,12 @@ Add annotation
 
 Rename `application.properties` to `bootstrap.properties`. Uses 'boot' step before application really starts.
 
-2) configs are "hierarchical"
+2. Important: configs are "hierarchical"
+
 - generic application properties
 - generic profile properties
-- app specific application properites
+- app specific application properties
 - app specific profile properties
+
+More specific properties have priority over less specific ones.
 
