@@ -8,8 +8,9 @@ Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watc
 
 1. Service registration
 - can do DNS
-- health checks (activator boot!)
-- can register "anything" (DB nodes...)
+- health checks 
+- - enable activator boot to view info
+- can register "anything", not only services (like DB nodes...)
 
 Ribbon integration
 - client-side load balancer
@@ -31,11 +32,17 @@ Ribbon integration
 - possible to hide services / configuration
 
 
-Code
+### Code
 
-1) setup
+1. setup
+
+Add annotation
+
+```
 @EnableDiscoveryClient
-bootstrap.properties => used before app "boots"
+```
+
+Rename `application.properties` to `bootstrap.properties`. Uses 'boot' step before application really starts.
 
 2) configs are "hierarchical"
 - generic application properties
