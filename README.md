@@ -7,11 +7,11 @@ Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watc
 ### Multiple functions
 
 1. Service registration
-  * can do DNS
-    * health checks 
+  1. can do DNS
+  2. health checks 
     * enable activator boot to view info
-  * can register "anything", not only services (like DB nodes...)
-  * ribbon integration
+  3. can register "anything", not only services (like DB nodes...)
+  4. ribbon integration
     * is a client-side load balancer
     * health check on ribbon (not supported by Eureka!)
 2. K/V store
