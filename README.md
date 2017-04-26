@@ -2,11 +2,11 @@
 
 ## Consul
 
-Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70 
+Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watch it at speed 1.5.
 
-Multiple functions
+### Multiple functions
 
-1) service registration
+1. Service registration
 - can do DNS
 - health checks (activator boot!)
 - can register "anything" (DB nodes...)
@@ -15,18 +15,20 @@ Ribbon integration
 - client-side load balancer
 - health check on ribbon (not supported by Eureka!)
 
-2) K/V store
+2. K/V store
 - for configuration
-- path => convert to "blob" (json)
-====================> TODO : check model !!
+- path => convert to "blob" (json?)
 
-3) Events
+> TODO : check model !!
 
-consul-starter-bus => spring cloud stream impl (abstraction of Kafka/Consul/...)
+3. Events
 
-4) ACL
+- consul-starter-bus is a spring cloud stream implemenation (like Kafka)
 
-Hide services / configuration through security !
+4. ACL
+
+- security
+- possible to hide services / configuration
 
 
 Code
