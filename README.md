@@ -14,21 +14,17 @@ Summary from good presentation https://www.youtube.com/watch?v=cJUTIyvCd70. Watc
   * ribbon integration
     * is a client-side load balancer
     * health check on ribbon (not supported by Eureka!)
-
 2. K/V store
-- for configuration
-- path => convert to "blob" (json?)
+  * for configuration
+  * path => convert to "blob" (json?)
 
 > TODO : check model !!
 
 3. Events
-
-- consul-starter-bus is a spring cloud stream implemenation (like Kafka)
-
+  * consul-starter-bus is a spring cloud stream implemenation (like Kafka)
 4. ACL
-
-- security
-- possible to hide services / configuration
+  * security
+  * possible to hide services / configuration
 
 
 ### Code
