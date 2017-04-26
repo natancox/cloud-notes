@@ -48,3 +48,24 @@ Rename `application.properties` to `bootstrap.properties`. Uses 'boot' step befo
 
 More specific properties have priority over less specific ones.
 
+## Vault
+
+Summary from good presentation starting at 39.45 on https://www.youtube.com/watch?v=cJUTIyvCd70. Watch it at speed 1.5.
+
+Vault is a tool from Hashicorp to manage secrets.
+
+* secure secret storage
+* audit logs
+* dynamic secrets (expiration)
+* leasing and renewal
+* revocation (one node or a full tree)
+* encryption as a service
+
+Very simple API for secrets
+* read
+* write
+
+Storage does not really matter.
+
+Demo of : vault - consul integration
+
